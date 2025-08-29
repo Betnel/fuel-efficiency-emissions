@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.log
+# Data (keep raw data out of the repo)
+data/raw/
+# Common build artifacts
+dist/
+build/
+# Jupyter autosave
+*.autosave
+# VS Code
+.vscode/
+# Parquet/temporary exports
+*.parquet
+*.tmp
